@@ -1,7 +1,5 @@
 from tkinter import *
-import tkinter as tk
 import random
-import logging
 import threading
 import time
 import datetime
@@ -24,6 +22,7 @@ status = 0
 # 1 waiting
 # 2 measuring
 # 3 failed
+
 
 def wait():
     global status
